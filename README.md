@@ -1,18 +1,23 @@
 # Arknoid
- Arknoid game
+Arknoid game
 
-Arknoid game project written in Java as project in OOP course at Bar-Ilan University. 
-need to have ant compile code available.
+Arknoid game project written in Java as project in OOP course at Bar-Ilan University.
+Using OOP basic design principles and GUI.
 
+Levels
 The game has 3 different Levels:
-
-Direct hit - one ball, one block: need to hit the block with a clean shot.
-FinalFour - three balls , classic level.
-Green3 - two balls, classic level.
-WideEazy - ten balls, one line of blocks.
-each block will give you 100 points. each round will give you an additional bonus points.
+1. Direct hit- one ball, one block: need to hit the block with a clean shot.
+2. FinalFour - three balls , classic level.
+3. Green3 - two balls, classic level.
+4. WideEazy - ten balls, one line of blocks.
+Each hitted block will give you 100 points and passing a level, each round will give you an additional bonus points.
 
 How to run it? 
-go to folder directory and enter cmd. enter - ant compile. 
-enter : ant run + {levels numbers}, for exmaple: ant run 3 1 1 4
-or enter: ant run (for default levels). enjoy :)
+need to have ant compile code available.
+1. go to folder directory and enter cmd. 
+2. enter - ant compile. 
+3. enter : ant run + {levels numbers}, (numbers level between 1-4, for exmaple: ant run 3 1 1 4)
+4. for default game, enter: ant run (for default levels).
+ enjoy :)
+
+
